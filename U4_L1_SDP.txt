@@ -1,0 +1,9 @@
+1. It is important that the stack itself cannot be tampered with by anything outside of the class. The size of the stack has to be private so that it cannot be tampered with and changed to something other than the length of the stack.
+
+2. The pop and top methods will utilize the __is_empty() method so it is confirmed that those methods can do their job if the list is not empty.
+
+3. It allows for the programmer to understand what went wrong in their code and give a partial solution to how they can think of fixing it.
+
+4. The reason that that top of the stack is the last element of the list is because if the first element is removed, all the other elements in the list must shift a value down. It is more efficient and easier to remove the last element as to not shift any values other than the one being modified.
+
+5. Unit testing is the process of testing the smallest functional unit of code. The test tell you what methods need to be done before, and are there to test one method before moving on to another. It ensures that the stack class will be fully functional by the end of the test.
